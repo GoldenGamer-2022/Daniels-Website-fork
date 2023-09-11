@@ -65,18 +65,49 @@
   border-radius: 4px;
   }
 
+  .inline-left {
+    
+    display: inline-block;
+    float: left;
+
+  }
+  .inline-right {
+
+    display: inline-block;
+    float: left;
+
+  }
+
+  button, input {
+
+      background-color: teal;
+      padding: 10px;
+      color: white;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+
+
+  }
+
   #myBtn:hover {
   background-color: #555;
   }
 
    h1 {
+
     font-family: sans-serif;
+    color: black;
+
    }
+
+  h2 {
+    font-size: 10px;
+  }
   </style>
 </head>
 <body>
        <link rel="manifest" href="manifest.json">
-  <noscript><h1 id="ie-message">Our website needs to access JavaScript to use the offline page and use personal features, please turn it on!</h1></noscript>
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <title>Daniel's Cool website</title>
   <script>
@@ -87,11 +118,12 @@
 <script async src="https://srv12335.cloudfilt.com/analyz.js?render=EKBdHi8u07Pt8EBSRZrC"></script>
 </head>
 <div class="’cookie-banner’" style="’display:">
-  <p>By using my website, you agree to my cookie policy</p>
 </div>
 <center>
   <h1>Welcome to my website.</h1>
 </center>
+<noscript><h2 style="color: darkgray; text-align: center;" id="ie-message">Our website needs to access JavaScript to use the offline page and use personal features, please turn it on!</h1></noscript>
+<h2 style="color: darkgray; text-align: center;">By using my website, you agree to my cookie policy</h2>
 <hr>
 Hello, this is my website.
 <hr>
@@ -104,14 +136,18 @@ We're counting our visitors now!
 <hr>
 <a href="coupon.html">COUPONS SAVINGS DEALS AND RECOMMENDATIONS CLICK HERE NOW!!!!! 🎁🎁🎁🎁🎁💰💰🤑💳</a>
 <hr>
-<button class="btn btn-success" onclick="window.open('loadclock.html','_blank')">Get the time in your area.</button>
-<hr>
+<div class="inline-left">
+<button  class="btn btn-success" onclick="window.open('loadclock.html','_blank')">Get the time in your area.</button>
+</div>
+<div class="inline-right">
 <form>
   <input type="button" value="Want info about coding? Click here to go to novium the well made website." onclick="window.location.href='https://bit.ly/34761873systemleavedanielrnovium'">
 </form>
+</div>
+<br>
+<br>
 <hr>
-<a href="makeadminstart.html">Sign up to admin</a>
-<hr>
+<a href="makeadminstart.html">Sign up to admin &#183</a>
 <a href="loginad.html">Admin login</a>
 <hr>
 <h3><a href="speed.html">Change between new and old services (recommended)</a></h3>
@@ -129,7 +165,7 @@ This weeks image:
 <img src="thingposter.png" alt="PNG"></div>
 <hr>
 <footer>
-  This website was mainly made by Daniel but some was edited by Oliver.
+  This website was mainly made by Daniel but some was edited by Oliver and visual redesign by Orin :).
 </footer>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
